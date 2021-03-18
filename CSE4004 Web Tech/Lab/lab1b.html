@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <title>Lab 2</title>
+    <meta content="">
+    <style>
+	*{
+		padding:0;
+		margin:0;
+	}
+    	body{
+		color:black;
+		background-color:#706c61;
+		text-align:center
+	}
+	.item{
+		padding:20px;
+	}
+	.item2{
+		padding:10px;
+	}
+	.header1{
+		background-color:white;
+		margin:0;
+		padding:0;
+	}
+	br{
+		margin: 15px;
+	}
+	iframe{
+		margin:25px;
+		border:0;
+	}
+    </style>
+  </head>
+  <body>
+	  <div class="header1">
+		  <table>
+			  <th>
+		  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffiles.prokerala.com%2Feducation%2Fimgs%2Flogo%2Fcollege%2Fvit-university-school-of-electronics-engineering-55630.jpg&f=1&nofb=1" alt="logo"/>
+		</th>
+		<th>
+		  <h1>Club Sign Up </h1>
+	 	 <h2>Welcome to VIT-AP</h2>
+			</th>
+		  </table>
+	  </div>
+
+  	<form>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Py3QexxAxM8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="item">	
+			<label>Choose your course: </label>
+			<br/>
+			<input   type="radio" id="btech" name="course" value="btech"/>
+	        	<label for="btech">B.Tech</label>	
+			<input   type="radio" id="mtech" name="course" value="mtech"/>
+	        	<label for="mtech">M.Tech</label>
+			<input   type="radio" id="bba" name="course" value="bba" />
+	        	<label for="bba">BBA</label>
+		</div>
+
+		<div class="item">
+			<label for="club-choice">Choose a club:</label>
+			<input list="clubs"/>
+			<datalist id="clubs">
+    				<option value="null Chapter">
+    				<option value="Google Developer Student Club">
+    				<option value="LIT-DAC">
+   				<option value="Computer Society of India">
+    				<option value="Toastmasters">
+			</datalist>
+		</div>
+		<div class="item">
+			<label>Choose your stream</label>
+			<select name="name1" id="id1">
+				<option value="Option 1">CSE</option>
+				<option value="Option 2">ECE</option>
+				<option value="Option 3">Mechanical</option>
+				<option value="Option 4">BBA</option>
+			</select>
+
+		</div>
+		<div class-"item">
+			<label>Upload your Resume:       </label>
+			<input type="file" id="myFile" name="filename" />
+		</div>
+		<div class="item">
+			<label style={text-align:center;}>Comments: </label>
+			<br/>
+			<textarea id="comment" rows="4" cols="50">This is a textarea</textarea>
+		</div>
+		<div class=item>
+		<input type="submit"/>
+		</div>
+
+	</form>
+  </body>
+</html>
