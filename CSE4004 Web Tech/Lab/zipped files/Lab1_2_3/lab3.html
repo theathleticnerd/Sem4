@@ -1,0 +1,164 @@
+<html>
+  <head>
+    <title>Grid</title>
+    <style>
+      * {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      header {
+        padding: 50px;
+        background-color: black;
+        color: white;
+      }
+      .grid2 {
+        display: grid;
+      }
+      .grid-container {
+        display: grid;
+        height: 100%;
+        grid-gap: 10px;
+        grid-template-columns: 200px 800px auto;
+      }
+      .navbar {
+        height: 100%;
+        width: 200px;
+        background-color: #eee;
+        overflow: auto;
+      }
+      .navbar a {
+        background-color: #eee;
+        display: block;
+        color: black;
+        padding: 20px;
+        text-decoration: none;
+      }
+      .navbar a:hover {
+        background-color: #ccc;
+      }
+      .navbar a.active {
+        background-color: #4caf50;
+        color: white;
+      }
+      .article {
+        text-align: center;
+        padding: 20px;
+
+        background-color: lightgray;
+        margin: 0px;
+      }
+      .sidebar {
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        background-color: lightgray;
+        margin: 0px;
+      }
+
+      footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        height: 100px;
+        padding: 20px;
+      }
+      .footerText {
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="grid2">
+        <h1>Job Fernandez</h1>
+        <h4 style="position: fixed; top: 40px; right: 25px">19BCD7154</h4>
+      </div>
+    </header>
+
+    <div class="grid-container">
+      <div class="navbar">
+        <a href="lab1.html" target="_blank" active>Resume</a>
+        <a href="https://github.com/theathleticnerd" target="_blank">GitHub</a>
+        <a href="https://www.instagram.com/the.athletic.nerd/" target="_blank"
+          >Instagram</a
+        >
+        <a href="https://www.linkedin.com/in/job-fernandez" target="_blank"
+          >LinkedIn</a
+        >
+      </div>
+      <div class="article">
+        <h2 style="margin: 34px">About Engineering</h2>
+        <p style="margin: 20px; font-style: italic">
+          "The creative application of scientific principles to design or
+          develop structures, machines, apparatus, or manufacturing processes,
+          or works utilizing them singly or in combination; or to construct or
+          operate the same with full cognizance of their design; or to forecast
+          their behavior under specific operating conditions; all as respects an
+          intended function, economics of operation and safety to life and
+          property."
+        </p>
+        <p style="margin: 20px">
+          There exists an overlap between the sciences and engineering practice;
+          in engineering, one applies science. Both areas of endeavor rely on
+          accurate observation of materials and phenomena. Both use mathematics
+          and classification criteria to analyze and communicate observations.
+          Scientists may also have to complete engineering tasks, such as
+          designing experimental apparatus or building prototypes. Conversely,
+          in the process of developing technology engineers sometimes find
+          themselves exploring new phenomena, thus becoming, for the moment,
+          scientists or more precisely "engineering scientists". The
+          International Space Station is used to conduct science experiments of
+          outer space In the book What Engineers Know and How They Know It,
+          Walter Vincenti asserts that engineering research has a character
+          different from that of scientific research. First, it often deals with
+          areas in which the basic physics or chemistry are well understood, but
+          the problems themselves are too complex to solve in an exact manner.
+          There is a "real and important" difference between engineering and
+          physics as similar to any science field has to do with technology.
+          Physics is an exploratory science that seeks knowledge of principles
+          while engineering uses knowledge for practical applications of
+          principles. The former equates an understanding into a mathematical
+          principle while the latter measures variables involved and creates
+          technology.For technology, physics is an auxiliary and in a way
+          technology is considered as applied physics. Though physics and
+          engineering are interrelated, it does not mean that a physicist is
+          trained to do an engineer's job. A physicist would typically require
+          additional and relevant training. Physicists and engineers engage in
+          different lines of work. But PhD physicists who specialize in sectors
+          of engineering physics and applied physics are titled as Technology
+          officer, R&D Engineers and System Engineers.
+        </p>
+      </div>
+      <div class="sidebar">
+        <table>
+          <tr>
+            <img
+              style="height: 150px; width: 150px; border-radius: 100%"
+              src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fstatic.dnaindia.com%2Fsites%2Fdefault%2Ffiles%2F2015%2F07%2F28%2F359776-apj-abdul-kalam-crop-afp.jpg&f=1&nofb=1"
+              alt="profile_pic"
+            />
+          </tr>
+          <tr style="margin: 30px">
+            <p style="margin: 30px 20px 20px 10px">APJ Abdul Kalam</p>
+            <p>11th President of India</p>
+            <p style="margin-top: 20px; font-size: 18px">
+              The People's President. He was awarded the Bharat Ratna, India's
+              highest civilian honour in 1997. He has also been a professor (of
+              aerospace engineering). Kalam is the first Chancellor of the
+              Indian Institute of Space Science and Technology
+              Thiruvananthapuram (IIST). Kalam’s contribution in the field of
+              space sciences has been immense. He also contributed in India’s
+              civilian space programme and military missile development, and so
+              he got the title of India’s “Missile Man”.
+            </p>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <footer>
+      <p class="footerText">Copyrights Job Fernandez</p>
+      <p class="footerText">Made on Earth by Humans</p>
+    </footer>
+  </body>
+</html>
